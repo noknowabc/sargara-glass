@@ -1,0 +1,1022 @@
+[
+  {
+    "slug": "aluglass",
+    "name": "Aluminum Foil with Fiberglass Fabric",
+    "alias": "ALUGLASS",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Aluminum Fiberglass Fabric",
+    "badges": ["Flame Retardant", "OEM & Private Label", "Wide Width"],
+    "summary": "A high-performance reflective composite that bonds high-purity aluminum foil to a woven fiberglass fabric core, delivering exceptional tensile strength, tear resistance and long-term thermal reflection.",
+    "features": [
+      "High-purity aluminum foil surface for low emissivity and radiant heat reflection",
+      "Woven fiberglass fabric reinforcement for mechanical strength and tear resistance",
+      "Excellent temperature resistance for HVAC, industrial and marine duty",
+      "Compatible with online lamination of glass wool and rock wool production lines"
+    ],
+    "specs": [
+      ["Foil thickness", "7 – 30 μm"],
+      ["Reinforcement", "Woven fiberglass fabric 50 – 200 g/m²"],
+      ["Total weight", "90 – 260 g/m²"],
+      ["Roll width", "Up to 1500 mm, custom slitting available"],
+      ["Roll length", "100 – 1000 m or to order"],
+      ["Fire performance", "Flame-retardant grades available on request"]
+    ],
+    "applications": [
+      "HVAC duct wrap and duct board facing",
+      "Metal building insulation",
+      "Industrial pipe and equipment insulation",
+      "Marine and prefabricated panel systems"
+    ]
+  },
+  {
+    "slug": "double-sided-aluminum-foil",
+    "name": "Double Sided Aluminum Foil",
+    "alias": "DFC",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Double Sided Aluminum Foil",
+    "badges": ["Double Reflective", "Scrim Reinforced", "OEM & Private Label"],
+    "summary": "A symmetrical composite with a reinforcing fiberglass scrim laminated between two layers of high-purity aluminum foil, giving reflective performance on both faces and superior radiant heat control.",
+    "features": [
+      "Aluminum foil on both faces for double-sided radiant reflection",
+      "Central fiberglass scrim delivers dimensional stability and strength",
+      "Low water-vapour transmission for effective vapour retarder duty",
+      "Clean metallic finish, suitable for exposed interior installation"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / fiberglass scrim / Alu foil"],
+      ["Foil thickness", "7 – 20 μm per side"],
+      ["Total weight", "80 – 200 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "50 – 500 m or to order"],
+      ["Emissivity", "Low-emissivity surface on both faces"]
+    ],
+    "applications": [
+      "HVAC duct wrap and duct board",
+      "Prefabricated insulation panels",
+      "Radiant barrier for roofs and attics",
+      "Sauna, cold room and equipment jacketing"
+    ]
+  },
+  {
+    "slug": "fsk",
+    "name": "Aluminum Foil Reinforced Kraft (FSK)",
+    "alias": "FSK",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Aluminum Foil Reinforced Kraft",
+    "badges": ["Class A / B1 Options", "Online Lamination", "High Volume"],
+    "summary": "FSK is a professional-grade insulation facing combining aluminum foil, a reinforcing fiberglass scrim and flame-retardant kraft paper — the industry-standard vapour retarder for glass wool and rock wool production lines.",
+    "features": [
+      "Foil–scrim–kraft construction for tear strength and puncture resistance",
+      "Designed for high-speed online lamination of mineral wool",
+      "Proprietary flame-retardant chemistry for demanding fire codes",
+      "Printable surface for customer branding"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / fiberglass scrim / FR kraft"],
+      ["Foil thickness", "7 – 9 μm (typical)"],
+      ["Total weight", "80 – 130 g/m²"],
+      ["Tensile strength", "Machine direction ≥ 60 N/25 mm (typical)"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Fire performance", "Class A / Class B1 grades available"]
+    ],
+    "applications": [
+      "Glass wool and rock wool blanket facing",
+      "HVAC duct wrap and duct liner",
+      "Metal building insulation facings",
+      "Insulation boards for industrial use"
+    ]
+  },
+  {
+    "slug": "reinforced-kraft-paper-facing",
+    "name": "Reinforced Kraft Paper Facing",
+    "alias": "FRK / RKP",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Reinforced Kraft Paper",
+    "badges": ["Cost Efficient", "Heavy Duty Grades", "Custom Basis Weight"],
+    "summary": "A lightweight yet high-strength reinforced kraft facing used as a vapour retarder and protective outer layer for insulation products, available in standard and heavy-duty constructions.",
+    "features": [
+      "Fiberglass scrim reinforcement for tensile and tear strength",
+      "Natural kraft surface accepting printing and private-label branding",
+      "Available from lightweight tape base to 300 gsm heavy-duty facer",
+      "Consistent moisture resistance for long storage life"
+    ],
+    "specs": [
+      ["Structure", "FR kraft / fiberglass scrim / FR kraft"],
+      ["Basis weight", "60 – 300 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Printing", "1 – 4 colours available"],
+      ["Water resistance", "Coated grades available"]
+    ],
+    "applications": [
+      "Insulation facings for mineral wool products",
+      "Heavy-duty facers for highway maintenance",
+      "Gummed tape base paper",
+      "Protective wrapping and packaging"
+    ]
+  },
+  {
+    "slug": "roof-sarking",
+    "name": "Aluminum Foil Woven Fabric (Roof Sarking)",
+    "alias": "ALU-WOVEN",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Aluminum Foil Woven Fabric",
+    "badges": ["High Tensile", "Australian Standard", "Weatherproof"],
+    "summary": "A heavy-duty reflective sarking membrane combining aluminum foil with woven fabric reinforcement, engineered for roof and wall weatherproofing with outstanding tear strength.",
+    "features": [
+      "Woven fabric core for exceptional tensile and tear strength",
+      "Reflective foil surface reduces radiant heat gain",
+      "Water-shedding and vapour-retarding for roof and wall cavities",
+      "Designed against Australian and New Zealand building practice"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / woven fabric / foil or film"],
+      ["Foil thickness", "7 – 12 μm"],
+      ["Total weight", "120 – 260 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "50 – 200 m"],
+      ["Emissivity", "Low-emissivity reflective surface"]
+    ],
+    "applications": [
+      "Roof sarking under metal roofing",
+      "Wall wrap and exterior building wrap",
+      "Radiant barrier for hot climates",
+      "Shed, warehouse and agricultural buildings"
+    ]
+  },
+  {
+    "slug": "heat-sealing-foil-2",
+    "name": "Heat-Sealing Foil",
+    "alias": "Heat-Sealing Foil",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Heat-Sealing Foil",
+    "badges": ["No Extra Adhesive", "Online Lamination", "Corrosion Resistant"],
+    "summary": "A professional-grade facing with a thick heat-sealable PE layer, allowing direct bonding to glass wool and rock wool during lamination — no additional adhesive required.",
+    "features": [
+      "Thicker heat-sealable PE layer for a strong direct bond",
+      "No extra adhesive needed on the production line",
+      "Good corrosion resistance and moisture barrier performance",
+      "Smooth reflective surface with consistent coating weight"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / PE seal layer"],
+      ["Foil thickness", "7 – 9 μm"],
+      ["Seal layer", "PE, heat activated"],
+      ["Total weight", "60 – 110 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"]
+    ],
+    "applications": [
+      "Glass wool and rock wool online lamination",
+      "PUR / PIR insulated panel production",
+      "HVAC duct insulation",
+      "Pipe insulation jacketing"
+    ]
+  },
+  {
+    "slug": "white-film-reinforced-kraft-wmp-series",
+    "name": "White Film Reinforced Kraft (WMP / WPSK Series)",
+    "alias": "WMP / WPSK",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "White / Black Film Reinforced Kraft",
+    "badges": ["Class A Fire Rated", "Clean White Face", "Private Label"],
+    "summary": "A high-quality clean-facing insulation material featuring white polypropylene film laminated with reinforcing fiberglass scrim and flame-resistant kraft paper — the leading alternative to conventional WMP facings.",
+    "features": [
+      "Bright white PP film surface for a clean finished appearance",
+      "Fiberglass scrim reinforcement for tear and tensile strength",
+      "Class A fire-rated constructions available",
+      "Excellent printability for customer branding"
+    ],
+    "specs": [
+      ["Structure", "White PP film / fiberglass scrim / FR kraft"],
+      ["Total weight", "70 – 130 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Surface", "White or black film options"],
+      ["Fire performance", "Class A grades available"]
+    ],
+    "applications": [
+      "HVAC duct wrap and duct board facings",
+      "Metal building insulation",
+      "Glass wool and rock wool blanket facing",
+      "Exposed interior insulation finishes"
+    ]
+  },
+  {
+    "slug": "aluminum-foil-laminated-pe-pet",
+    "name": "Aluminum Foil Laminated PE & PET",
+    "alias": "ALU-PE / ALU-PET-PE",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Aluminum Foil Laminated PE & PET",
+    "badges": ["High Barrier", "Tear Resistant", "Automated Processing"],
+    "summary": "A high-barrier composite engineered for extreme moisture, vapour and chemical resistance, combining aluminum foil with PE and PET layers for stability in automated processing lines.",
+    "features": [
+      "Multi-layer ALU / PET / PE structure for maximum barrier performance",
+      "High puncture and tear resistance during automated conversion",
+      "Excellent chemical and moisture resistance for industrial duty",
+      "Stable web tension for high-speed production"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / PET / PE or Alu foil / PE"],
+      ["Foil thickness", "7 – 25 μm"],
+      ["Total weight", "80 – 220 g/m²"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Barrier", "High water-vapour and gas barrier"]
+    ],
+    "applications": [
+      "Industrial insulation jacketing",
+      "Pipeline and equipment protection",
+      "Specialised barrier packaging",
+      "Cold room and refrigeration panels"
+    ]
+  },
+  {
+    "slug": "adhesive-tape",
+    "name": "Aluminum Foil Adhesive Tape",
+    "alias": "Foil Tape",
+    "category": "foil",
+    "group": "Foil Lamination",
+    "sub": "Adhesive Tape",
+    "badges": ["High Tack", "Custom Widths", "HVAC Grade"],
+    "summary": "High-tack aluminum foil tape used for sealing, repairing and wrapping in HVAC, refrigeration, duct and construction applications — with custom widths and adhesive systems available.",
+    "features": [
+      "High-tack adhesive for reliable sealing of foil facings",
+      "Flame-retardant and standard adhesive options",
+      "Custom widths, lengths and core sizes",
+      "Clean release liner and consistent unwind"
+    ],
+    "specs": [
+      ["Backing", "Aluminum foil 30 – 50 μm"],
+      ["Adhesive", "Acrylic or rubber based"],
+      ["Width", "25 – 1200 mm"],
+      ["Length", "10 – 100 m per roll"],
+      ["Thickness", "0.05 – 0.15 mm"],
+      ["Temperature range", "Up to 120 °C (acrylic grades)"]
+    ],
+    "applications": [
+      "HVAC duct sealing and jointing",
+      "Foil facing overlap and repair",
+      "Refrigeration and appliance assembly",
+      "Bridge and general construction sealing"
+    ]
+  },
+  {
+    "slug": "breathable-membrane",
+    "name": "Breathable Membrane",
+    "alias": "Breathable Roof & Wall Membrane",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Breathable Membrane",
+    "badges": ["Sd 0.02 m", "UV Resistant", "SGS Tested"],
+    "summary": "A high-performance breathable membrane delivering waterproofing, vapour permeability and UV resistance for roof underlayment and wall membrane applications.",
+    "features": [
+      "Waterproof yet vapour permeable to let wall and roof assemblies dry",
+      "High UV resistance for extended exposure before cladding",
+      "Tear and tensile strength suited to site handling",
+      "SGS-certified performance levels, including Sd value to 0.02 m"
+    ],
+    "specs": [
+      ["Structure", "Multi-layer PP nonwoven / functional film"],
+      ["Water vapour transmission", "High; Sd value from 0.02 m"],
+      ["Roll width", "1.5 m / 3 m or custom"],
+      ["Roll length", "50 m / 100 m or custom"],
+      ["UV exposure", "Extended exposure grades available"],
+      ["Certification", "SGS tested"]
+    ],
+    "applications": [
+      "Pitched roof underlayment",
+      "Exterior wall weather barrier",
+      "Timber frame and light steel frame walls",
+      "Renovation and retrofit projects"
+    ]
+  },
+  {
+    "slug": "sargara-hdpe-breathable-membrane",
+    "name": "SARGARA B1060 HDPE Breathable Membrane",
+    "alias": "SARGARA™ B1060",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Breathable Membrane",
+    "badges": ["Sd 0.02 m", "Flame Retardant", "SGS Certified"],
+    "summary": "A flash-spun HDPE breathable membrane engineered for high-performance wall and roof applications, combining market-leading vapour permeability with durable weather protection.",
+    "features": [
+      "Sd value of 0.02 m — market-leading vapour permeability",
+      "Flash-spun HDPE structure for strength without weight",
+      "Flame-retardant grade achieving recognised classifications",
+      "Double SGS certification and consistent batch quality"
+    ],
+    "specs": [
+      ["Material", "Flash-spun HDPE"],
+      ["Sd value", "0.02 m"],
+      ["Roll width", "1.5 m / 3 m"],
+      ["Roll length", "50 m / 100 m"],
+      ["Water tightness", "Class W1"],
+      ["Certification", "SGS, flame-retardant classification available"]
+    ],
+    "applications": [
+      "High-performance wall weather barrier",
+      "Roof underlayment for steep and low slope",
+      "Timber frame and modular construction",
+      "Projects requiring verified vapour permeability"
+    ]
+  },
+  {
+    "slug": "synthetic-underlayment",
+    "name": "Synthetic Roofing Underlayment",
+    "alias": "Synthetic Underlayment",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Synthetic Underlayment",
+    "badges": ["Anti-Slip", "Tear Resistant", "Contractor Grade"],
+    "summary": "A durable secondary roof protection layer developed for professional roofers in North America and Europe, replacing traditional felt with a stronger, lighter, safer membrane.",
+    "features": [
+      "High tear and tensile strength for wind uplift resistance",
+      "Anti-slip surface for safer installation on steep roofs",
+      "Lightweight rolls for faster coverage per man hour",
+      "Printer-ready surface for private-label branding"
+    ],
+    "specs": [
+      ["Structure", "Woven / nonwoven PP with functional coating"],
+      ["Roll width", "0.92 m / 1 m / 1.22 m or custom"],
+      ["Roll length", "30 m / 50 m or custom"],
+      ["Grammage", "Light, standard and heavy-duty grades"],
+      ["Water resistance", "Waterproof"],
+      ["Branding", "Custom printing available"]
+    ],
+    "applications": [
+      "Pitched roof secondary protection",
+      "Roof replacement and re-roofing",
+      "Metal roof and tile roof underlayment",
+      "Commercial and residential construction"
+    ]
+  },
+  {
+    "slug": "ice-and-water-shield",
+    "name": "Ice & Water Shield",
+    "alias": "Self-Adhered Underlayment",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Ice & Water Shield",
+    "badges": ["Self-Adhered", "Butyl & Bitumen Grades", "Cold Climate"],
+    "summary": "A self-adhered waterproofing membrane for roof valleys, eaves, ridges and penetrations, engineered to stop ice dams and wind-driven rain from reaching the roof deck.",
+    "features": [
+      "Butyl and bitumen adhesive systems for different climates",
+      "Seals around nails and fasteners to maintain watertightness",
+      "High-temperature stability for warm roof surfaces",
+      "Available in 9 ft / 10 ft and standard width rolls"
+    ],
+    "specs": [
+      ["Type", "Self-adhered waterproofing membrane"],
+      ["Adhesive", "Butyl or modified bitumen"],
+      ["Surface", "HDPE film, sand or granular"],
+      ["Roll width", "0.5 m / 0.9 m / 1 m"],
+      ["Roll length", "10 m / 20 m / 30 m"],
+      ["Low temperature flexibility", "Suitable for cold climate installation"]
+    ],
+    "applications": [
+      "Roof eaves and ice dam protection",
+      "Valleys, ridges and roof penetrations",
+      "Under metal roofing and shingles",
+      "Gutter lining and flashing details"
+    ]
+  },
+  {
+    "slug": "house-wrap",
+    "name": "House Wrap / Water-Resistive Barrier",
+    "alias": "WRB",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "House Wrap",
+    "badges": ["9 ft / 10 ft Wide", "Tear Resistant", "Private Label"],
+    "summary": "A water-resistive barrier that keeps bulk water out of wall assemblies while allowing moisture vapour to escape — supplied in wide 9 ft and 10 ft rolls to cut installation time.",
+    "features": [
+      "9 ft / 10 ft wide rolls improve installation efficiency",
+      "Balanced vapour permeability for cavity drying",
+      "High tear strength resists wind and site damage",
+      "Custom logo, colour and packaging for private label"
+    ],
+    "specs": [
+      ["Structure", "Woven PP / breathable membrane / flash-spun HDPE"],
+      ["Roll width", "9 ft (2.74 m) / 10 ft (3.05 m) or custom"],
+      ["Roll length", "50 m / 100 ft / 150 ft or custom"],
+      ["Grammage", "70 – 140 g/m² depending on type"],
+      ["Water resistance", "Water-resistive barrier"],
+      ["Branding", "Custom printing available"]
+    ],
+    "applications": [
+      "Wood frame and light steel frame walls",
+      "Multifamily and commercial buildings",
+      "Renovation and re-cladding",
+      "Modular and prefabricated construction"
+    ]
+  },
+  {
+    "slug": "sargara-1060b-hdpe-house-wrap",
+    "name": "SARGARA B1060 HDPE House Wrap",
+    "alias": "SARGARA™ B1060",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "House Wrap",
+    "badges": ["Flash-Spun HDPE", "Premium WRB", "Tyvek Alternative"],
+    "summary": "A premium flash-spun HDPE water-resistive barrier positioned as a high-performance alternative to established global brands, with certified fire performance and dependable supply.",
+    "features": [
+      "Flash-spun HDPE structure for a tough, lightweight barrier",
+      "Premium positioning against leading global WRB brands",
+      "Consistent roll-to-roll quality from controlled manufacturing",
+      "Private-label branding and packaging available"
+    ],
+    "specs": [
+      ["Material", "Flash-spun HDPE"],
+      ["Roll width", "9 ft / 10 ft / custom"],
+      ["Roll length", "100 ft / 150 ft / custom"],
+      ["Water resistance", "Water-resistive barrier"],
+      ["Fire performance", "Flame-retardant grades available"],
+      ["Branding", "Custom logo and packaging"]
+    ],
+    "applications": [
+      "Residential exterior wall barrier",
+      "Multifamily and commercial walls",
+      "Projects specifying premium WRB performance",
+      "Distributor and private-label programmes"
+    ]
+  },
+  {
+    "slug": "sargara-b2066-hdpe-house-wrap",
+    "name": "SARGARA B2066 HDPE House Wrap",
+    "alias": "SARGARA™ B2066",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "House Wrap",
+    "badges": ["EN 13501-1 B-s1,d0", "Flame Retardant", "Premium WRB"],
+    "summary": "A flame-retardant flash-spun HDPE weather-resistive barrier that has achieved EN 13501-1 B-s1,d0 fire classification — built for projects where fire performance is non-negotiable.",
+    "features": [
+      "EN 13501-1 B-s1,d0 fire classification achieved",
+      "Flash-spun HDPE for strength, toughness and low weight",
+      "High vapour permeability for healthy wall assemblies",
+      "Suited to multifamily, commercial and public buildings"
+    ],
+    "specs": [
+      ["Material", "Flame-retardant flash-spun HDPE"],
+      ["Fire classification", "EN 13501-1 B-s1,d0"],
+      ["Roll width", "9 ft / 10 ft / custom"],
+      ["Roll length", "100 ft / 150 ft / custom"],
+      ["Water resistance", "Water-resistive barrier"],
+      ["Branding", "Custom logo and packaging"]
+    ],
+    "applications": [
+      "Buildings with strict fire requirements",
+      "Multifamily and commercial facades",
+      "Public and infrastructure projects",
+      "Private-label WRB programmes"
+    ]
+  },
+  {
+    "slug": "vapor-barrier",
+    "name": "Vapour Barrier & Reflective Vapour Control Membrane",
+    "alias": "Vapour Barrier / VCL",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Vapour Barrier",
+    "badges": ["High Barrier", "Reflective Grades", "Roof & Wall"],
+    "summary": "Vapour barriers that control moisture vapour movement inside the building envelope, protecting insulation performance, indoor air quality and structural durability.",
+    "features": [
+      "Very low water-vapour transmission for effective moisture control",
+      "Reflective foil-faced versions add radiant heat control",
+      "Tear and puncture resistance for site durability",
+      "Wide rolls reduce installation time and lap count"
+    ],
+    "specs": [
+      ["Structure", "Foil / scrim / film or PE film"],
+      ["Water vapour transmission", "Low — vapour retarder / barrier grades"],
+      ["Roll width", "1 m – 3 m or custom"],
+      ["Roll length", "50 m / 100 m or custom"],
+      ["Surface", "Reflective foil or plain film"],
+      ["Branding", "Printing available"]
+    ],
+    "applications": [
+      "Warm side of roof and wall insulation",
+      "Cold storage and refrigerated rooms",
+      "Metal building roof systems",
+      "Crawl space and under-slab barriers"
+    ]
+  },
+  {
+    "slug": "radiant-barrier",
+    "name": "Radiant Barrier",
+    "alias": "Reflective Radiant Barrier",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Radiant Barrier",
+    "badges": ["Low Emissivity", "High Reflectivity", "Roof & Attic"],
+    "summary": "A reflective material that reduces radiant heat transfer in roofs, attics and enclosed spaces by reflecting a large proportion of incoming radiant energy back to its source.",
+    "features": [
+      "High reflectivity and low emissivity surface",
+      "Reduces cooling load in hot climates",
+      "Reinforced constructions for tear and puncture resistance",
+      "Compatible with roof deck, rafter and wrap installation"
+    ],
+    "specs": [
+      ["Structure", "Alu foil / scrim / kraft or film"],
+      ["Reflectivity", "High reflective surface"],
+      ["Emissivity", "Low emissivity"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Fire performance", "Flame-retardant grades available"]
+    ],
+    "applications": [
+      "Attic and roof deck radiant control",
+      "Metal roof and warehouse buildings",
+      "Walls behind cladding in hot climates",
+      "Equipment and duct radiant shielding"
+    ]
+  },
+  {
+    "slug": "sargara-thermal-shield-cargo-covers",
+    "name": "SARGARA Thermal Shield Cargo Covers",
+    "alias": "SARGARA™ Thermal Shield",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Building Envelope Systems",
+    "badges": ["Thermal Protection", "Custom Size", "Transport & Logistics"],
+    "summary": "High-performance reflective cargo covers built on the SARGARA membrane platform to protect temperature-sensitive freight during storage and transport.",
+    "features": [
+      "Reflective construction reduces solar heat gain",
+      "Durable, lightweight and easy to handle on site",
+      "Custom sizes, eyelets and edge reinforcement",
+      "Reusable design for repeated transport cycles"
+    ],
+    "specs": [
+      ["Material", "SARGARA / reflective composite"],
+      ["Format", "Custom covers and liners"],
+      ["Fixing", "Eyelets, edge reinforcement"],
+      ["Size", "Made to order"],
+      ["Branding", "Custom print available"],
+      ["Reuse", "Designed for repeated use"]
+    ],
+    "applications": [
+      "Container and truck cargo protection",
+      "Temperature-sensitive freight",
+      "Outdoor storage covers",
+      "Pallet and bulk bag liners"
+    ]
+  },
+  {
+    "slug": "sargara-building-envelope-protection-systems",
+    "name": "SARGARA Building Envelope Protection Systems",
+    "alias": "Integrated Envelope System",
+    "category": "roofing",
+    "group": "Roofing & Walling",
+    "sub": "Building Envelope Systems",
+    "badges": ["System Solution", "One Supplier", "Project Support"],
+    "summary": "A complete, coordinated building envelope package — house wrap, roofing underlayment, ice and water shield, breathable membrane and accessories — designed to be specified and sourced together.",
+    "features": [
+      "Layers engineered to work together across the whole assembly",
+      "One supplier, one shipment, one set of documents",
+      "Fewer compatibility risks between membranes and accessories",
+      "Technical support from specification through install"
+    ],
+    "specs": [
+      ["Scope", "Roof, wall, vapour and accessory layers"],
+      ["Includes", "WRB, underlayment, ice & water shield, membranes, tapes"],
+      ["Roll formats", "Standard and custom widths"],
+      ["Branding", "Private label across the system"],
+      ["Documentation", "Technical data sheets and certificates"],
+      ["Support", "System selection assistance"]
+    ],
+    "applications": [
+      "Residential and multifamily walls",
+      "Commercial roof and wall envelopes",
+      "Distributor system programmes",
+      "Regions facing cold, wet or hot climates"
+    ]
+  },
+  {
+    "slug": "rock-wool-board",
+    "name": "Rock Wool Board",
+    "alias": "Mineral Wool Slab",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Rock Wool",
+    "badges": ["FM Certified", "Class A Non-Combustible", "High Density"],
+    "summary": "A rigid, high-performance insulation slab manufactured from natural basalt rock, engineered for thermal, fire and acoustic performance in walls, roofs and industrial systems.",
+    "features": [
+      "Non-combustible inorganic fibre — Class A fire performance",
+      "Excellent acoustic absorption and impact noise reduction",
+      "Water repellent yet vapour permeable",
+      "Dimensionally stable, does not shrink or expand in service"
+    ],
+    "specs": [
+      ["Density", "40 – 200 kg/m³"],
+      ["Thickness", "25 – 150 mm"],
+      ["Format", "1200 × 600 mm standard"],
+      ["Thermal conductivity", "Low λ, per grade"],
+      ["Fire performance", "Class A non-combustible"],
+      ["Certification", "FM, CE and CCS available"]
+    ],
+    "applications": [
+      "External wall insulation and curtain walls",
+      "Flat and metal roof insulation",
+      "Industrial furnace and equipment insulation",
+      "Acoustic partitions and ceilings"
+    ]
+  },
+  {
+    "slug": "rock-wool-blanket",
+    "name": "Rock Wool Blanket",
+    "alias": "Mineral Wool Blanket / Roll",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Rock Wool",
+    "badges": ["Wire Mesh Option", "High Temperature", "FM Certified"],
+    "summary": "A resilient, flexible roll insulation spun from basalt rock fibres, engineered for superior thermal management in high-temperature and large-area applications.",
+    "features": [
+      "Flexible roll form for fast coverage of large areas",
+      "Excellent heat resistance for high-temperature duty",
+      "Available with wire mesh for industrial equipment",
+      "Foil, FSK or WMP facings can be laminated online"
+    ],
+    "specs": [
+      ["Density", "40 – 100 kg/m³"],
+      ["Thickness", "50 – 150 mm"],
+      ["Roll size", "To order, up to 7.2 m long blankets"],
+      ["Facing", "Bare, FSK, WMP or wire mesh"],
+      ["Fire performance", "Class A non-combustible"],
+      ["Certification", "FM, CE available"]
+    ],
+    "applications": [
+      "Metal building insulation",
+      "Industrial equipment and tank insulation",
+      "Roof and wall thermal insulation",
+      "Acoustic absorption in large spaces"
+    ]
+  },
+  {
+    "slug": "rock-wool-pipe",
+    "name": "Rock Wool Pipe Section",
+    "alias": "Pre-formed Pipe Insulation",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Rock Wool",
+    "badges": ["Pre-Formed", "High Temperature", "Precision Fit"],
+    "summary": "Precision-engineered semi-cylindrical sections manufactured from spun basalt fibre, providing a perfect fit for pipe insulation with excellent thermal and fire performance.",
+    "features": [
+      "Pre-formed sections match standard pipe sizes precisely",
+      "Excellent high-temperature performance for process piping",
+      "Easy to install with fast closing seams",
+      "Can be supplied with aluminium foil or FSK facing"
+    ],
+    "specs": [
+      ["Density", "80 – 150 kg/m³"],
+      ["Thickness", "20 – 100 mm"],
+      ["Pipe size range", "From DN15 upward"],
+      ["Length", "1000 mm standard"],
+      ["Facing", "Bare or foil faced"],
+      ["Fire performance", "Class A non-combustible"]
+    ],
+    "applications": [
+      "Steam and process pipe insulation",
+      "HVAC chilled and hot water pipework",
+      "Industrial plant and district heating",
+      "Chimney and exhaust ductwork"
+    ]
+  },
+  {
+    "slug": "hydroponic-rock-wool-cube",
+    "name": "Hydroponic Rock Wool Cube",
+    "alias": "Grow Cubes & Blocks",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Rock Wool",
+    "badges": ["Sterile & Inert", "Uniform Structure", "Soilless Growing"],
+    "summary": "Precision-engineered growth substrates made from molten basalt spun into fine sterile fibres, formed into uniform cubes and blocks for professional soilless cultivation.",
+    "features": [
+      "Sterile, inert and pH neutral root-zone substrate",
+      "Uniform fibre structure for consistent water and air balance",
+      "Available as plugs, cubes, blocks and slabs",
+      "Custom sizes and densities for different crops"
+    ],
+    "specs": [
+      ["Material", "Spun basalt rock fibre"],
+      ["Format", "Plugs, cubes, blocks, slabs"],
+      ["Density", "Made to crop requirement"],
+      ["Size", "25 mm plugs upward, custom formats"],
+      ["pH", "Neutral, conditioned grades available"],
+      ["Packaging", "Cartons and shrink-wrapped pallets"]
+    ],
+    "applications": [
+      "Commercial greenhouse propagation",
+      "Hydroponic vegetable and fruit production",
+      "Seedling and cutting propagation",
+      "Vertical farming and research"
+    ]
+  },
+  {
+    "slug": "glass-wool-board",
+    "name": "Glass Wool Board",
+    "alias": "Fibreglass Insulation Board",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Glass Wool",
+    "badges": ["Lightweight", "Acoustic", "Class A"],
+    "summary": "Rigid yet flexible boards spun from recycled glass, delivering effective thermal insulation, sound absorption and fire protection for walls, ceilings and HVAC systems.",
+    "features": [
+      "Lightweight, easy to cut and install",
+      "Excellent acoustic absorption for partitions and ceilings",
+      "Non-combustible inorganic glass fibre",
+      "Foil or FSK facing can be applied for vapour control"
+    ],
+    "specs": [
+      ["Density", "24 – 96 kg/m³"],
+      ["Thickness", "25 – 100 mm"],
+      ["Format", "1200 × 600 mm standard"],
+      ["Facing", "Bare or foil faced"],
+      ["Fire performance", "Class A non-combustible"],
+      ["Certification", "CE, CCS available"]
+    ],
+    "applications": [
+      "Ceiling and partition insulation",
+      "Duct board and duct liner",
+      "Steel frame wall insulation",
+      "Acoustic treatment in commercial spaces"
+    ]
+  },
+  {
+    "slug": "glass-wool-blanket",
+    "name": "Glass Wool Blanket",
+    "alias": "Glass Wool Roll",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Glass Wool",
+    "badges": ["Foil Faced", "Thermal & Acoustic", "High Yield"],
+    "summary": "A resilient flexible roll insulation manufactured from high-purity recycled glass spun into fine interlocking fibres, providing thermal insulation, acoustic absorption and fire protection.",
+    "features": [
+      "Recovery memory keeps insulation performing over time",
+      "Effective acoustic absorption in metal building systems",
+      "Online lamination with FSK, WMP or foil facings",
+      "Compressed packaging reduces freight cost per m²"
+    ],
+    "specs": [
+      ["Density", "10 – 48 kg/m³"],
+      ["Thickness", "50 – 200 mm"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Facing", "Bare, FSK, WMP, foil"],
+      ["Fire performance", "Class A non-combustible"],
+      ["Certification", "CE, CCS available"]
+    ],
+    "applications": [
+      "Metal building wall and roof insulation",
+      "HVAC duct wrap",
+      "Partition and ceiling acoustic insulation",
+      "Cold storage and industrial buildings"
+    ]
+  },
+  {
+    "slug": "glass-wool-pipe",
+    "name": "Glass Wool Pipe Section",
+    "alias": "Pre-formed Glass Wool Pipe",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Glass Wool",
+    "badges": ["Pre-Formed", "Easy Install", "Foil Faced"],
+    "summary": "Semi-cylindrical pipe insulation manufactured from resilient glass fibres bonded with thermosetting resin, providing consistent thermal and acoustic performance with easy installation.",
+    "features": [
+      "Pre-formed sections for standard pipe diameters",
+      "Elastic recovery closes gaps around the pipe",
+      "Foil or FSK facing option for vapour control",
+      "Light weight reduces installation labour"
+    ],
+    "specs": [
+      ["Density", "48 – 96 kg/m³"],
+      ["Thickness", "20 – 80 mm"],
+      ["Pipe size range", "From DN15 upward"],
+      ["Length", "1000 mm standard"],
+      ["Facing", "Bare or foil faced"],
+      ["Fire performance", "Class A non-combustible"]
+    ],
+    "applications": [
+      "HVAC chilled and hot water piping",
+      "Condensate and drainage lines",
+      "Commercial building services",
+      "Acoustic pipe insulation"
+    ]
+  },
+  {
+    "slug": "fiberglass-ceiling-panel",
+    "name": "Fiberglass Acoustic Ceiling Panel",
+    "alias": "Ceiling Tiles",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Acoustic",
+    "badges": ["High NRC", "Painted Edge", "Moisture Resistant"],
+    "summary": "Acoustic ceiling tiles manufactured from high-density resin-bonded fiberglass wool with a fine-textured painted glass tissue face and sealed, painted edges.",
+    "features": [
+      "High noise reduction coefficient for open and enclosed spaces",
+      "Fine texture painted glass tissue facing for a clean finish",
+      "Sealed and painted edges for a sharp grid appearance",
+      "Light weight and stable under humidity changes"
+    ],
+    "specs": [
+      ["Format", "600 × 600 mm / 600 × 1200 mm"],
+      ["Thickness", "15 – 25 mm"],
+      ["Edge", "Square, tegular or concealed"],
+      ["Facing", "Painted glass tissue, plain tissue backing"],
+      ["Acoustic", "High NRC grades available"],
+      ["Fire performance", "Non-combustible glass wool core"]
+    ],
+    "applications": [
+      "Commercial office ceilings",
+      "Airport, station and public buildings",
+      "Schools, hospitals and institutions",
+      "Open-plan acoustic treatment"
+    ]
+  },
+  {
+    "slug": "fiberglass-wall-panel",
+    "name": "Fiberglass Acoustic Wall Panel",
+    "alias": "Wall Panel",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Acoustic",
+    "badges": ["Fabric Faced", "Edge Variety", "Design Freedom"],
+    "summary": "Fabric-faced acoustic wall panels manufactured from high-density resin-bonded glass wool, backed with plain glass tissue and fabric-wrapped edges for a refined architectural finish.",
+    "features": [
+      "Wide range of textile facings and colours",
+      "Multiple edge designs, forms and thickness levels",
+      "High acoustic absorption for noisy environments",
+      "Backed with plain glass tissue for clean installation"
+    ],
+    "specs": [
+      ["Core", "High-density resin-bonded glass wool"],
+      ["Thickness", "25 – 50 mm"],
+      ["Format", "Made to project size"],
+      ["Facing", "Textile fabric, wrapped edges"],
+      ["Acoustic", "High absorption grades"],
+      ["Fire performance", "Non-combustible core"]
+    ],
+    "applications": [
+      "Auditoriums and theatres",
+      "Recording and broadcast studios",
+      "Office and conference acoustic walls",
+      "Gymnasiums and public interiors"
+    ]
+  },
+  {
+    "slug": "fiberglass-suspended-baffle",
+    "name": "Fiberglass Suspended Baffle",
+    "alias": "Acoustic Baffle",
+    "category": "insulation",
+    "group": "Insulation & Acoustic",
+    "sub": "Acoustic",
+    "badges": ["Vertical Absorption", "Custom Forms", "Lightweight"],
+    "summary": "Suspended acoustic baffles that absorb sound from two faces, ideal for large open volumes where ceiling coverage alone cannot control reverberation.",
+    "features": [
+      "Two-sided absorption for high open volumes",
+      "Lightweight glass wool core with fabric facings",
+      "Custom lengths, widths and edge profiles",
+      "Simple suspension from ceiling grid or structure"
+    ],
+    "specs": [
+      ["Core", "Resin-bonded glass wool"],
+      ["Thickness", "25 – 50 mm"],
+      ["Format", "Custom baffle dimensions"],
+      ["Suspension", "Ceiling grid or structure"],
+      ["Facing", "Textile fabric or glass tissue"],
+      ["Fire performance", "Non-combustible core"]
+    ],
+    "applications": [
+      "Airports, stations and atriums",
+      "Industrial halls and warehouses",
+      "Sports and leisure centres",
+      "Open-plan commercial interiors"
+    ]
+  },
+  {
+    "slug": "coated-fiberglass-mat",
+    "name": "Coated Fiberglass Mat",
+    "alias": "Coated Glass Mat",
+    "category": "fiberglass",
+    "group": "Fiberglass",
+    "sub": "Coated Fiberglass Mat",
+    "badges": ["Smooth Surface", "Gypsum Board Facings", "Globally Recognised"],
+    "summary": "A coated fiberglass mat used as a facing layer for gypsum board, acoustic board and thermal insulation board, available in a wide choice of controlled fabric properties.",
+    "features": [
+      "Wide choice of controlled fabric properties for design needs",
+      "Smooth surface suitable for painting and finishing",
+      "Good dimensional stability through board production",
+      "Globally recognised quality from our mat lines"
+    ],
+    "specs": [
+      ["Basis weight", "60 – 250 g/m²"],
+      ["Coating", "Modified binder, custom formulations"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Application", "Board facing and lamination"],
+      ["Colours", "White, black and custom"]
+    ],
+    "applications": [
+      "Gypsum board facing",
+      "Acoustic board surface",
+      "Thermal insulation board facing",
+      "Interior and exterior wall decoration panels"
+    ]
+  },
+  {
+    "slug": "fiberglass-fabric-series",
+    "name": "Fiberglass Fabric Series",
+    "alias": "Woven E-Glass Fabric",
+    "category": "fiberglass",
+    "group": "Fiberglass",
+    "sub": "Fiberglass Fabric",
+    "badges": ["E-Glass Yarn", "Thickness Control", "Wide Range"],
+    "summary": "The widest range of woven E-glass fabrics, manufactured with modern weaving technology and close control of thickness, weight and strength.",
+    "features": [
+      "Manufactured from high-quality E-glass yarn",
+      "State-of-the-art weaving for consistent mesh and thickness",
+      "Broad range of weights and weave patterns",
+      "Consistent strength from roll to roll"
+    ],
+    "specs": [
+      ["Yarn", "E-glass"],
+      ["Basis weight", "60 – 600 g/m²"],
+      ["Weave", "Plain, twill and special patterns"],
+      ["Roll width", "Up to 2000 mm"],
+      ["Roll length", "To order"],
+      ["Finish", "Heat cleaned or silane sized"]
+    ],
+    "applications": [
+      "Composite reinforcement",
+      "Insulation facings and duct systems",
+      "Construction and industrial textiles",
+      "Filtration and specialty applications"
+    ]
+  },
+  {
+    "slug": "coated-fiberglass-fabric",
+    "name": "Coated Fiberglass Fabric",
+    "alias": "Silicone Coated Glass Fabric",
+    "category": "fiberglass",
+    "group": "Fiberglass",
+    "sub": "Coated Fiberglass Fabric",
+    "badges": ["Silicone Coated", "Fire Resistant", "Chemical Resistant"],
+    "summary": "Fiberglass fabric coated with silicone for duct insulation facings and industrial duty, providing a smooth surface with acoustic, thermal and chemical resistance.",
+    "features": [
+      "Silicone coating for water, fire and chemical resistance",
+      "Smooth surface suitable for exposed duct facing",
+      "Acoustic and thermal performance in duct systems",
+      "Available in single or double sided coating"
+    ],
+    "specs": [
+      ["Base fabric", "Woven E-glass fabric"],
+      ["Coating", "Silicone, one or both sides"],
+      ["Basis weight", "200 – 600 g/m²"],
+      ["Roll width", "Up to 2000 mm"],
+      ["Temperature range", "High temperature resistance"],
+      ["Colours", "Grey, black, red and custom"]
+    ],
+    "applications": [
+      "Duct insulation facings",
+      "Expansion joints and thermal barriers",
+      "Welding blankets and fire curtains",
+      "Chemical and industrial shielding"
+    ]
+  },
+  {
+    "slug": "heat-sealing-foil",
+    "name": "Fiberglass Tissue & BGT",
+    "alias": "Black Glass Tissue / Veil",
+    "category": "fiberglass",
+    "group": "Fiberglass",
+    "sub": "Fiberglass Tissue & BGT",
+    "badges": ["Smooth Face", "Acoustic Grade", "Duct Liner"],
+    "summary": "Fiberglass tissue and black glass veil used as facer components in duct insulation systems, providing a smooth surface with acoustic and thermal performance.",
+    "features": [
+      "Smooth surface finish for exposed duct insulation",
+      "Acoustic and thermal performance in duct systems",
+      "Black fiberglass veil suited to glass wool and rock wool lamination",
+      "Also used as an acoustic facing for wood and aluminium ceilings"
+    ],
+    "specs": [
+      ["Basis weight", "30 – 120 g/m²"],
+      ["Colour", "Black and white"],
+      ["Roll width", "Up to 1500 mm"],
+      ["Roll length", "To order"],
+      ["Application", "Facer and surface lamination"],
+      ["Finish", "Binder types to customer process"]
+    ],
+    "applications": [
+      "Duct insulation facers",
+      "Glass wool and rock wool surface lamination",
+      "Acoustic wood and aluminium ceiling panels",
+      "Gypsum and board surface layers"
+    ]
+  }
+]

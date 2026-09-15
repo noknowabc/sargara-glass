@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# dependencies / tooling
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generator scratch
+*.tmp
