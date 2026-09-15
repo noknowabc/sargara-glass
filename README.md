@@ -34,6 +34,25 @@ Deploy by uploading the whole folder to any static host (Netlify, Vercel, S3,
 Nginx, or the client's existing hosting). `sitemap.xml` and `robots.txt` are
 generated automatically.
 
+## Deployment
+
+The site is published from the GitHub repository `noknowabc/sargara-website`
+(private). The repository root **is** the site root — there is no build step.
+
+| Branch | Contents |
+| --- | --- |
+| `main` | This static site |
+| `legacy-hvac-catalog` | The previous bilingual HVAC/R catalog project, preserved for reference |
+
+```bash
+git push origin main      # publish an update
+```
+
+GitHub Pages is **not** available for this private repository on the current
+plan (the API returns HTTP 422). To get a public URL, either make the repository
+public and enable Settings → Pages (source `main`, folder `/`), or connect the
+repository to a host such as Netlify, Vercel or Cloudflare Pages.
+
 ## What is in the build
 
 | Page | File | Notes |
