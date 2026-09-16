@@ -10,3 +10,6 @@ venv/
 
 # generator scratch
 *.tmp
+
+# deployment packages (built locally, not committed)
+*.zip
