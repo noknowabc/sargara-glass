@@ -34,6 +34,21 @@ Deploy by uploading the whole folder to any static host (Netlify, Vercel, S3,
 Nginx, or the client's existing hosting). `sitemap.xml` and `robots.txt` are
 generated automatically.
 
+## Run as a Node app
+
+Some hosting platforms expect a Node application rather than plain static
+files. `package.json` and `server.mjs` provide a **zero-dependency** static
+server for exactly that case:
+
+```bash
+npm start          # or: node server.mjs
+```
+
+It listens on `PORT` (falls back to 3000) and `HOST` (falls back to `0.0.0.0`),
+serves the repository root as the website root, gzips text responses, sets
+long-lived cache headers for images, falls back to `404.html`, and refuses to
+serve `tools/`, `data/` or any dotfile.
+
 ## Deployment
 
 The site is published from the GitHub repository `noknowabc/sargara-website`

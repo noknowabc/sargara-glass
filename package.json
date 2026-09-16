@@ -1,0 +1,14 @@
+{
+  "name": "sargara-glass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SARGARA building materials website — static site served by a zero-dependency Node server.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  }
+}
