@@ -1,0 +1,13 @@
+Private access is ON.
+
+While this file exists, server.mjs shows gate.html to every visitor and serves
+no real page, image or document until the correct access phrase is entered.
+The phrase is "sargara2026" unless ACCESS_PASSWORD is set on the hosting
+platform. Visitors stay unlocked for 30 days (ACCESS_DAYS) in a signed cookie.
+
+Open the site again by deleting this file and redeploying:
+
+    rm access.on
+
+Emergency bypass without a code change: set PUBLIC=true in the platform
+environment. Sign out on a device by visiting /?signout=1

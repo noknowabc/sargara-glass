@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06203f">
+<meta name="robots" content="noindex, nofollow">
+<title>SARGARA® | We'll be back soon</title>
+<style>
+  :root {
+    --brand-900: #06203f;
+    --brand-800: #0a2d55;
+    --brand-700: #0c3d78;
+    --brand-500: #1568c6;
+    --accent-500: #f26a1b;
+    --ink-900: #0b1725;
+    --ink-500: #5a6d82;
+    --line: #e3e9f0;
+    --mist: #f6f8fb;
+    color-scheme: light;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    margin: 0;
+    color: var(--ink-900);
+    background: var(--mist);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 24px;
+    padding: 10px max(20px, calc((100% - 1120px) / 2));
+    color: #cddcf2;
+    background: var(--brand-900);
+    font-size: 12px;
+  }
+
+  .shell {
+    display: grid;
+    flex: 1;
+    align-content: center;
+    gap: 32px;
+    width: min(1120px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 48px 0 56px;
+  }
+
+  .brand svg { display: block; width: 236px; height: 56px; }
+
+  .panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 24px 60px rgba(6, 32, 63, .1);
+  }
+
+  .panel__main { padding: 46px 46px 42px; }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0;
+    padding: 7px 14px;
+    border-radius: 999px;
+    color: var(--brand-700);
+    background: #eef4fd;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .badge i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent-500);
+    animation: pulse 1.9s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: .3; transform: scale(.7); }
+  }
+
+  h1 {
+    margin: 22px 0 14px;
+    font-family: Archivo, Inter, system-ui, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -.01em;
+  }
+
+  h1.zh {
+    font-family: "PingFang SC", "Microsoft YaHei", Inter, system-ui, sans-serif;
+    font-weight: 700;
+  }
+
+  p.lead {
+    max-width: 54ch;
+    margin: 0;
+    color: var(--ink-500);
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 46px;
+    padding: 0 20px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--ink-900);
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .button.primary {
+    border-color: var(--accent-500);
+    color: #fff;
+    background: var(--accent-500);
+  }
+
+  .panel__aside {
+    display: grid;
+    align-content: center;
+    gap: 16px;
+    padding: 46px;
+    border-left: 1px solid var(--line);
+    background: linear-gradient(180deg, #f8fafd 0%, #eef3f9 100%);
+  }
+
+  .panel__aside h2 { margin: 0; font-size: 15px; }
+
+  dl { display: grid; gap: 14px; margin: 0; }
+  dl > div { padding-bottom: 13px; border-bottom: 1px solid rgba(11, 23, 37, .07); }
+  dl > div:last-child { padding-bottom: 0; border-bottom: 0; }
+  dt { margin-bottom: 4px; color: var(--ink-500); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  dd { margin: 0; font-size: 14px; line-height: 1.55; }
+  dd a { color: var(--brand-700); }
+
+  .foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 18px;
+    width: min(1120px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 20px 0 26px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-500);
+    font-size: 12px;
+  }
+
+  .lang { display: flex; gap: 6px; margin-left: auto; }
+  .lang button {
+    min-width: 54px;
+    min-height: 32px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--ink-500);
+    background: #fff;
+    font: inherit;
+    cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] {
+    color: var(--brand-700);
+    border-color: #bcd4f0;
+    background: #eef4fd;
+    font-weight: 700;
+  }
+
+  [data-lang] { display: none; }
+  html[lang="en"] [data-lang="en"],
+  html[lang="zh"] [data-lang="zh"] { display: block; }
+
+  @media (max-width: 880px) {
+    .panel { grid-template-columns: 1fr; }
+    .panel__main, .panel__aside { padding: 30px 24px; }
+    .panel__aside { border-left: 0; border-top: 1px solid var(--line); }
+    h1 { font-size: 30px; }
+    .brand svg { width: 200px; height: 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <span>SARGARA® Building Materials — Ningbo Sargara New Materials Co., Ltd.</span>
+  <span>Ningbo, Zhejiang, China</span>
+</div>
+
+<main class="shell">
+  <div class="brand">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" role="img" aria-label="SARGARA — Building Materials">
+      <defs>
+        <linearGradient id="sgLockup" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#1568c6"/>
+          <stop offset="0.55" stop-color="#0c3d78"/>
+          <stop offset="1" stop-color="#06203f"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="8" width="48" height="48" rx="11" fill="url(#sgLockup)"/>
+      <path d="M34 19.5H22.6a5.4 5.4 0 0 0 0 10.8h4.8a5.4 5.4 0 0 1 0 10.8H14.1" fill="none" stroke="#ffffff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" transform="translate(0,-0.8)"/>
+      <rect x="13" y="46.6" width="9" height="3.4" rx="1.7" fill="#f26a1b"/>
+      <text x="62" y="34.5" font-family="Archivo, Inter, system-ui, sans-serif" font-size="25" font-weight="800" letter-spacing="1.6" fill="#0b1725">SARGARA</text>
+      <text x="63.5" y="49.5" font-family="Inter, system-ui, sans-serif" font-size="7.6" font-weight="600" letter-spacing="2.9" fill="#7b8b9e">BUILDING MATERIALS</text>
+    </svg>
+  </div>
+
+  <section class="panel">
+    <div class="panel__main">
+      <p class="badge"><i aria-hidden="true"></i><span data-lang="en">Website upgrade in progress</span><span data-lang="zh">网站升级中</span></p>
+      <h1 data-lang="en">We&rsquo;ll be back soon</h1>
+      <h1 class="zh" data-lang="zh">稍后回来，我们正在升级</h1>
+      <p class="lead" data-lang="en">The SARGARA website is being upgraded and is temporarily unavailable. Product pages and enquiry forms will return shortly. For urgent orders or quotations, please reach us on WhatsApp or by email.</p>
+      <p class="lead" data-lang="zh">SARGARA 网站正在升级，暂时无法访问。产品页面与询价功能稍后恢复。如有紧急订单或报价需求，请通过 WhatsApp 或邮件联系我们。</p>
+      <div class="actions">
+        <a class="button primary" href="https://wa.me/8618868685020" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="button" href="mailto:david@china.sargara.com">david@china.sargara.com</a>
+      </div>
+    </div>
+
+    <aside class="panel__aside">
+      <h2 data-lang="en">Direct contact</h2>
+      <h2 data-lang="zh">直接联系</h2>
+      <dl>
+        <div>
+          <dt data-lang="en">Phone / WhatsApp</dt>
+          <dt data-lang="zh">电话 / WhatsApp</dt>
+          <dd><a href="tel:+8618868685020">+86 188 6868 5020</a></dd>
+        </div>
+        <div>
+          <dt data-lang="en">Email</dt>
+          <dt data-lang="zh">邮箱</dt>
+          <dd><a href="mailto:david@china.sargara.com">david@china.sargara.com</a></dd>
+        </div>
+        <div>
+          <dt data-lang="en">Address</dt>
+          <dt data-lang="zh">地址</dt>
+          <dd data-lang="en">No. 1890 Qingqing Road, Zhenhai District, Ningbo, Zhejiang, China</dd>
+          <dd data-lang="zh">中国浙江省宁波市镇海区青青路 1890 号</dd>
+        </div>
+      </dl>
+    </aside>
+  </section>
+</main>
+
+<footer class="foot">
+  <span data-lang="en">&copy; 2026 SARGARA®. All rights reserved.</span>
+  <span data-lang="zh">&copy; 2026 SARGARA®. 版权所有。</span>
+  <div class="lang">
+    <button type="button" data-set-lang="en">EN</button>
+    <button type="button" data-set-lang="zh">中文</button>
+  </div>
+</footer>
+
+<script>
+  const root = document.documentElement;
+  const buttons = Array.from(document.querySelectorAll("[data-set-lang]"));
+  const titles = { en: "SARGARA® | We'll be back soon", zh: "SARGARA® | 网站升级中" };
+
+  function setLang(lang) {
+    root.lang = lang === "zh" ? "zh" : "en";
+    document.title = titles[lang === "zh" ? "zh" : "en"];
+    buttons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.setLang === root.lang)));
+  }
+
+  buttons.forEach((button) => button.addEventListener("click", () => setLang(button.dataset.setLang)));
+  setLang((navigator.language || "en").toLowerCase().startsWith("zh") ? "zh" : "en");
+</script>
+</body>
+</html>

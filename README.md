@@ -49,6 +49,44 @@ serves the repository root as the website root, gzips text responses, sets
 long-lived cache headers for images, falls back to `404.html`, and refuses to
 serve `tools/`, `data/` or any dotfile.
 
+## Private access gate
+
+The site can be closed behind a full-page access screen — no popup, no product
+content, just the company name and one elegant password field
+(`gate.html`). While the flag file `access.on` exists in the repository root,
+`server.mjs` answers **every** request with that screen: no page, image or
+document is served until the visitor enters the access phrase. Unlocking stores
+a signed, HttpOnly cookie (30 days), so partners only type the phrase once, and
+`robots.txt` reports `Disallow: /` while the gate is closed.
+
+| Setting | Default | Purpose |
+| --- | --- | --- |
+| `access.on` (flag file) | present | Gate is ON while the file exists |
+| `ACCESS_PASSWORD` | `sargara2026` | The access phrase (case-insensitive) |
+| `ACCESS_PASSWORDS` | – | Several phrases at once, comma separated |
+| `ACCESS_DAYS` | `30` | Days an unlocked visitor stays unlocked |
+| `ACCESS_SECRET` | derived | Secret that signs the access cookie |
+| `PUBLIC=true` | – | Emergency bypass: serves the site to everybody |
+| `MAINTENANCE=true` | – | Emergency 503 maintenance notice |
+
+Set `ACCESS_PASSWORD` in the hosting platform's environment rather than in the
+repository, so the phrase never lands in a file or a commit. Six wrong attempts
+from one address are throttled for ten minutes; visitors can lock a device again
+at `https://www.sargara.com/?signout=1`.
+
+To reopen the site, delete the flag and redeploy:
+
+```bash
+rm access.on
+git push origin main
+```
+
+Two caveats: the gate is enforced by the Node server, so it only protects a host
+that runs `npm start` — a pure static host (GitHub Pages, S3) can show
+`gate.html` but cannot stop anyone from opening the pages behind it. And
+`maintenance.on`, when present, outranks the gate: every request then gets
+`maintenance.html` with HTTP 503.
+
 ## Deployment
 
 The site is published from the GitHub repository `noknowabc/sargara-website`
@@ -81,6 +119,7 @@ repository to a host such as Netlify, Vercel or Cloudflare Pages.
 | Article | `news/<slug>.html` | Full article body, sticky enquiry card, related guides |
 | Contact | `contact.html` | Contact channels, full enquiry form, FAQ, privacy and terms |
 | Not found | `404.html` | Recovery page with best sellers |
+| Access gate | `gate.html` | Full-page private access screen shown while `access.on` exists |
 
 Plus `sitemap.xml`, `robots.txt` and a shared `assets/` folder.
 
