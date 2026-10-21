@@ -50,6 +50,7 @@ const DENIED_FILES = [
   "/package-lock.json",
   "/readme.md",
   "/access.on",
+  "/access.off",
   "/maintenance.on",
 ];
 
