@@ -62,6 +62,7 @@ a signed, HttpOnly cookie (30 days), so partners only type the phrase once, and
 | Setting | Default | Purpose |
 | --- | --- | --- |
 | `access.on` (flag file) | present | Gate is ON while the file exists |
+| `access.off` (pause file) | present | Gate is PAUSED: site open, screen kept for later |
 | `ACCESS_PASSWORD` | `sargara2026` | The access phrase (case-insensitive) |
 | `ACCESS_PASSWORDS` | – | Several phrases at once, comma separated |
 | `ACCESS_DAYS` | `30` | Days an unlocked visitor stays unlocked |
@@ -74,12 +75,18 @@ repository, so the phrase never lands in a file or a commit. Six wrong attempts
 from one address are throttled for ten minutes; visitors can lock a device again
 at `https://www.sargara.com/?signout=1`.
 
-To reopen the site, delete the flag and redeploy:
+**Current state: paused.** `access.off` exists, so the live site is open to
+everyone, while `access.on`, `gate.html` and the gate code stay in the
+repository untouched. To lock the site again, delete only the pause file and
+redeploy:
 
 ```bash
-rm access.on
+rm access.off
 git push origin main
 ```
+
+Deleting `access.on` instead removes the gate entirely; that is not needed
+here and is not required to open the site.
 
 Two caveats: the gate is enforced by the Node server, so it only protects a host
 that runs `npm start` — a pure static host (GitHub Pages, S3) can show

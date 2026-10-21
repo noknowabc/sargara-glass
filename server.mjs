@@ -22,7 +22,10 @@
  *   PUBLIC=true       force the gate open          (emergency bypass)
  *
  * Visitors can sign out again at any time:  /?signout=1
- * Delete `access.on` (or set PUBLIC=true) and redeploy to reopen the site.
+ *
+ * Pausing the gate without removing anything: create `access.off`. While that
+ * file exists the site is open to everyone; delete it and redeploy to lock the
+ * site again. `access.on`, gate.html and this code all stay in place.
  */
 
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
@@ -63,6 +66,7 @@ const maintenanceEnabled = () => process.env.MAINTENANCE === "true" || existsSyn
 /* ------------------------------------------------------------ access gate */
 
 const GATE_FLAG = join(ROOT, "access.on");
+const GATE_PAUSE_FLAG = join(ROOT, "access.off");
 const GATE_PAGE = join(ROOT, "gate.html");
 const GATE_COOKIE = "sg_access";
 const GATE_DEFAULT_PASSWORD = "sargara2026";
@@ -88,8 +92,12 @@ const GATE_SECRET =
   process.env.ACCESS_SECRET ||
   createHash("sha256").update(`sargara-gate:${GATE_PASSWORDS.join("|")}`).digest("hex");
 
+const gatePaused = () => existsSync(GATE_PAUSE_FLAG);
+
 const gateEnabled = () =>
-  process.env.PUBLIC !== "true" && (process.env.ACCESS === "true" || existsSync(GATE_FLAG));
+  !gatePaused() &&
+  process.env.PUBLIC !== "true" &&
+  (process.env.ACCESS === "true" || existsSync(GATE_FLAG));
 
 /** Files the gate page itself needs while every other path stays closed. */
 const GATE_PUBLIC_PATHS = new Set([
@@ -521,5 +529,7 @@ server.listen(PORT, HOST, () => {
       ? "access phrase from environment"
       : `default access phrase "${GATE_DEFAULT_PASSWORD}" — set ACCESS_PASSWORD to change it`;
     console.log(`Access gate: ON — ${GATE_PASSWORDS.length} phrase(s) accepted, ${source}.`);
+  } else if (gatePaused()) {
+    console.log("Access gate: PAUSED (access.off) — site is open; delete access.off and redeploy to lock it again.");
   }
 });
