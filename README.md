@@ -62,7 +62,7 @@ a signed, HttpOnly cookie (30 days), so partners only type the phrase once, and
 | Setting | Default | Purpose |
 | --- | --- | --- |
 | `access.on` (flag file) | present | Gate is ON while the file exists |
-| `access.off` (pause file) | present | Gate is PAUSED: site open, screen kept for later |
+| `access.pause` (pause file) | – | Gate is PAUSED while this file exists |
 | `ACCESS_PASSWORD` | `sargara2026` | The access phrase (case-insensitive) |
 | `ACCESS_PASSWORDS` | – | Several phrases at once, comma separated |
 | `ACCESS_DAYS` | `30` | Days an unlocked visitor stays unlocked |
@@ -75,18 +75,20 @@ repository, so the phrase never lands in a file or a commit. Six wrong attempts
 from one address are throttled for ten minutes; visitors can lock a device again
 at `https://www.sargara.com/?signout=1`.
 
-**Current state: paused.** `access.off` exists, so the live site is open to
-everyone, while `access.on`, `gate.html` and the gate code stay in the
-repository untouched. To lock the site again, delete only the pause file and
-redeploy:
+**Current state: armed.** No pause file exists, so `access.on` keeps the
+password screen in front of the whole site. To open the site temporarily, add a
+file called `access.pause` at the repository root and redeploy; delete it again
+to bring the password screen back.
 
 ```bash
-rm access.off
-git push origin main
+touch access.pause    # open the site temporarily
+rm access.pause       # password screen back
 ```
 
-Deleting `access.on` instead removes the gate entirely; that is not needed
-here and is not required to open the site.
+`access.off` from the earlier pause design is deliberately ignored, so a stale
+copy left inside an old deploy archive can no longer keep the site open.
+Deleting `access.on` switches the gate off entirely; that is not needed to open
+the site temporarily.
 
 Two caveats: the gate is enforced by the Node server, so it only protects a host
 that runs `npm start` — a pure static host (GitHub Pages, S3) can show

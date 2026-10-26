@@ -23,9 +23,12 @@
  *
  * Visitors can sign out again at any time:  /?signout=1
  *
- * Pausing the gate without removing anything: create `access.off`. While that
+ * Pausing the gate without removing anything: create `access.pause`. While that
  * file exists the site is open to everyone; delete it and redeploy to lock the
  * site again. `access.on`, gate.html and this code all stay in place.
+ *
+ * `access.off` from earlier builds is ignored on purpose: a stale copy left in
+ * a deploy archive must never keep the site open.
  */
 
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
@@ -51,6 +54,7 @@ const DENIED_FILES = [
   "/readme.md",
   "/access.on",
   "/access.off",
+  "/access.pause",
   "/maintenance.on",
 ];
 
@@ -67,7 +71,7 @@ const maintenanceEnabled = () => process.env.MAINTENANCE === "true" || existsSyn
 /* ------------------------------------------------------------ access gate */
 
 const GATE_FLAG = join(ROOT, "access.on");
-const GATE_PAUSE_FLAG = join(ROOT, "access.off");
+const GATE_PAUSE_FLAG = join(ROOT, "access.pause");
 const GATE_PAGE = join(ROOT, "gate.html");
 const GATE_COOKIE = "sg_access";
 const GATE_DEFAULT_PASSWORD = "sargara2026";
@@ -529,8 +533,8 @@ server.listen(PORT, HOST, () => {
     const source = GATE_FROM_ENV
       ? "access phrase from environment"
       : `default access phrase "${GATE_DEFAULT_PASSWORD}" — set ACCESS_PASSWORD to change it`;
-    console.log(`Access gate: ON — ${GATE_PASSWORDS.length} phrase(s) accepted, ${source}.`);
+    console.log(`Access gate: ON — ${GATE_PASSWORDS.length} phrase(s) accepted, ${source}. [build 2026-10-26]`);
   } else if (gatePaused()) {
-    console.log("Access gate: PAUSED (access.off) — site is open; delete access.off and redeploy to lock it again.");
+    console.log("Access gate: PAUSED (access.pause) — site is open; delete access.pause and redeploy to lock it again.");
   }
 });
